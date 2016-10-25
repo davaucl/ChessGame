@@ -2,7 +2,7 @@
 """Ce module contient la classe Echiquier, une classe regroupant diverses pièces sur un plateau de jeu.
 
 """
-from pychecs2.echecs.piece import Pion, Tour, Fou, Cavalier, Dame, Roi, UTILISER_UNICODE
+from echecs.piece import Pion, Tour, Fou, Cavalier, Dame, Roi, UTILISER_UNICODE
 
 class reclic_sur_piece(Exception):
     pass

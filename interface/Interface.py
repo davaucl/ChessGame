@@ -2,9 +2,9 @@ from tkinter import Tk, Canvas, Label, NSEW, Button, E, W, Frame, filedialog, Te
 from tkinter import END, OptionMenu, StringVar
 import pickle
 
-from pychecs2.echecs.piece import Pion, Tour, Fou, Cavalier, Dame, Roi, UTILISER_UNICODE
+from echecs.piece import Pion, Tour, Fou, Cavalier, Dame, Roi, UTILISER_UNICODE
 
-from pychecs2.echecs.echiquier import Echiquier, reclic_sur_piece, deplacement_invalide
+from echecs.echiquier import Echiquier, reclic_sur_piece, deplacement_invalide
 
 class CanvasEchiquier(Canvas):
     """Classe héritant d'un Canvas, et affichant un échiquier qui se redimensionne automatique lorsque

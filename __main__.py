@@ -1,6 +1,6 @@
 
-from pychecs2.echecs.partie import Partie
-from pychecs2.interface.Interface import Fenetre
+from echecs.partie import Partie
+from interface.Interface import Fenetre
 
 if __name__ == '__main__':
     # Création d'une instance de Partie.

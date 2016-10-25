@@ -3,8 +3,8 @@
 dont un objet échiquier (une instance de la classe Echiquier).
 
 """
-from pychecs2.echecs.echiquier import Echiquier
-from pychecs2.interface.Interface import Fenetre
+from echecs.echiquier import Echiquier
+from interface.Interface import Fenetre
 
 
 class Partie:
